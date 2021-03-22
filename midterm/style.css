@@ -1,0 +1,119 @@
+body{ 
+	background-color: #18191A;
+	color:white;
+}
+.col-left{
+      float:left;
+      width:33%;
+      top left: no-repeat;
+  }
+
+#wrapper{
+	max-width:1750px;
+}
+
+img{
+	border-radius: 2%
+}
+p{
+	font-size: 1.7rem
+}
+
+.col-left{
+	/*background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(167,39,162,1) 0%, rgba(0,212,255,0) 100%),
+	url("images/bakecover.jpg") top left no-repeat; */
+	
+	height:600px;
+	padding:2em;
+}
+
+#page-header p{
+	color:#fff;
+	width:50em;
+}
+.btn{
+	display: inline-block;
+	border:solid 2px white;
+	width: 160px;
+	height:96px;
+	color: white;
+	text-decoration: none;
+	font-size: 1.9em;
+	text-align: center;
+	padding-top: 10px;
+	border-radius: 10px
+}
+.btn2{
+	display: inline-block;
+	border:solid 2px white;
+	width: 350px;
+	height:96px;
+	color: white;
+	text-decoration: none;
+	font-size: 1.9em;
+	text-align: center;
+	padding-top: 10px;
+	border-radius: 10px
+}
+.btn3{
+	display: inline-block;
+	border:solid 2px white;
+	width: 350px;
+	height:96px;
+	color: white;
+	text-decoration: none;
+	font-size: 1.9em;
+	text-align: center;
+	padding-top: 10px;
+	border-radius: 10px
+}
+
+
+.btn:hover{
+	background-color: #855288;
+	color: white;
+}
+.btn2:hover{
+	background-color: #855288;
+	color: white;
+}
+.btn3:hover{
+	background-color: #855288;
+	color: white;
+}
+
+.btn_play{
+	background: url("images/play_arrow.svg") center left no-repeat;
+}
+.cred {
+	color: #855288;
+
+}
+em{
+	color:white;
+}
+
+
+nav{
+	
+	padding:0.3em;
+}
+
+nav li{
+	display:inline;
+	margin-right:2em;
+}
+
+nav li a{
+	color:#000;
+	text-decoration: underline;
+}
+
+nav li a:hover{
+	color:red;
+	text-decoration: underline;
+}
+
+{
+	float:left;
+}
