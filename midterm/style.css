@@ -1,11 +1,17 @@
 body{ 
 	background-color: #18191A;
 	color:white;
+	font-family: Arial
+
+
 }
 .col-left{
       float:left;
       width:33%;
       top left: no-repeat;
+  }
+  .col{
+  	color: #d3d3d3;
   }
 
 #wrapper{
@@ -16,7 +22,14 @@ img{
 	border-radius: 2%
 }
 p{
-	font-size: 1.7rem
+	font-size: 1.6rem
+}
+h4{
+	color:#7f7f7f;
+	font-size: 1.2em
+}
+footer{
+	margin:80px;
 }
 
 .col-left{
@@ -34,44 +47,47 @@ p{
 .btn{
 	display: inline-block;
 	border:solid 2px white;
-	width: 160px;
+	width: 200px;
 	height:96px;
 	color: white;
 	text-decoration: none;
-	font-size: 1.9em;
+	font-size: 2.5em;
 	text-align: center;
 	padding-top: 10px;
-	border-radius: 10px
+	border-radius: 10px;
+	margin-right: 50px;
 }
 .btn2{
 	display: inline-block;
 	border:solid 2px white;
-	width: 350px;
+	width: 310px;
 	height:96px;
 	color: white;
 	text-decoration: none;
-	font-size: 1.9em;
+	font-size: 2.5em;
 	text-align: center;
 	padding-top: 10px;
-	border-radius: 10px
+	border-radius: 10px;
+	margin-right: 50px
 }
 .btn3{
 	display: inline-block;
 	border:solid 2px white;
-	width: 350px;
+	width: 285px;
 	height:96px;
 	color: white;
 	text-decoration: none;
-	font-size: 1.9em;
+	font-size: 2.5em;
 	text-align: center;
 	padding-top: 10px;
-	border-radius: 10px
+	border-radius: 10px;
 }
 
 
 .btn:hover{
 	background-color: #855288;
 	color: white;
+	
 }
 .btn2:hover{
 	background-color: #855288;
