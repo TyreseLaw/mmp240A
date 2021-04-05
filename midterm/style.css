@@ -18,8 +18,9 @@ body{
 	max-width:1750px;
 }
 
-img{
-	border-radius: 2%
+.col-left img{
+	border-radius: 2%;
+
 }
 p{
 	font-size: 1.6rem
@@ -129,7 +130,27 @@ nav li a:hover{
 	color:red;
 	text-decoration: underline;
 }
+.card-body p{
+	font-size:0.9em
+}
+h5 span{
+	font-size: 0.8em
+}
 
-{
-	float:left;
+
+/* Episodes styles------------------- */
+
+.episodes-container{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+
+}
+.episode-card {
+	margin-left:1px;
+	width:25%;
+}
+
+.img-responsive{
+	width:100%;
 }
