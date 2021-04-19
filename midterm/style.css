@@ -20,7 +20,12 @@ body{
 
 .col-left img{
 	border-radius: 2%;
+	width:100%;
 
+}
+
+.episode-card img{
+	width:130%;
 }
 p{
 	font-size: 1.6rem
@@ -83,7 +88,18 @@ footer{
 	padding-top: 10px;
 	border-radius: 10px;
 }
-
+.btn4{
+	display: inline-block;
+	border:solid 2px white;
+	width: 330px;
+	height:96px;
+	color: white;
+	text-decoration: none;
+	font-size: 2.5em;
+	text-align: center;
+	padding-top: 10px;
+	border-radius: 10px;
+}
 
 .btn:hover{
 	background-color: #855288;
@@ -95,6 +111,10 @@ footer{
 	color: white;
 }
 .btn3:hover{
+	background-color: #855288;
+	color: white;
+}
+.btn4:hover{
 	background-color: #855288;
 	color: white;
 }
@@ -153,4 +173,11 @@ h5 span{
 
 .img-responsive{
 	width:100%;
+}
+
+@media (max-width:875px){
+	.col1, .col2{
+		float:none;
+		width:100%;
+	}
 }
